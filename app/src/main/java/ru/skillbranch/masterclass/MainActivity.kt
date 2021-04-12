@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 BClass.TestText.text="Включите фонарик"
                 Color = 0
                 try {
-                    cameraManager.setTorchMode(cameraId, false) //Turn ON
+                    cameraManager.setTorchMode(cameraId, false) //Turn Off
                 } catch (e: CameraAccessException) {
                     e.printStackTrace()
                 }
